@@ -50,16 +50,16 @@ body {
 }
 
 #home .container .row .home-text #hello {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #home .container .row .home-text #my-name {
 	font-family: 'Roboto', sans-serif;
-	font-size: 85px;
+	font-size: 80px;
 }
 
 #home .container .row .home-text .des {
-	font-size: 15px;
+	font-size: 13px;
 }
 
 footer {
