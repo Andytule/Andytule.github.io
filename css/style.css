@@ -1,0 +1,188 @@
+body {
+	background-color: #0E1111;
+}
+
+/* Header */
+.header_area .main-menu .navbar {
+	background-color: #000000;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+	color: #FFFFFF;
+	padding: 0px 0px 0px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+
+.header_area .main-menu .navbar .navbar-nav {
+	padding: 0px 20px 0px 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header_area .main-menu .navbar .nav-link {
+	color: #FFFFFF;
+	padding: 0px 0px 0px 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	text-align: right;
+}
+
+/* General */
+.main-content {
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+.main-content h4 {
+	padding: 50px; 
+	font-size: 17px;
+	margin: 0px;
+}
+
+/* Home */
+#home .container .row {
+	margin: 12% 30px auto 30px;
+}
+
+#home .container .row .home-text {
+}
+
+#home .container .row .home-text #hello {
+	font-size: 25px;
+}
+
+#home .container .row .home-text #my-name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100px;
+}
+
+#home .container .row .home-text .des {
+	font-size: 15px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+footer .container .row .description .para {
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+footer .container .row .description .para a {
+	padding: 0px 10px 0px 10px;
+	filter: invert(100%);
+}
+
+footer .container .row .description .para a:hover {
+	filter: invert(0%);
+}
+
+footer .container .row .description .para a img {
+	width: 20px;
+}
+
+/* Projects */
+#projects {
+	background-color: #171A1D;
+}
+
+#projects .container .row .proj {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#projects .container .row .proj .outline {
+	background-color: #22262A;
+	width: 300px;
+	height: 600px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#projects .container .row .proj .outline:hover {
+	box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+}
+
+#projects .container .row .proj .outline .info {
+	height: 100%;
+	display: grid;
+	grid-template-rows: 50px 40px 170px 40px;
+}
+
+#projects .container .row .proj .outline .info .project_name {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	font-size: 25px;
+}
+
+#projects .container .row .proj .outline .info .logos {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+#projects .container .row .proj .outline .info .logos a {
+	margin: 0px 3px 0px 3px;
+	filter: invert(100%);
+}
+
+#projects .container .row .proj .outline .info .logos a:hover {
+	filter: invert(0%);
+}
+
+#projects .container .row .proj .outline .info p {
+	height: 100%;
+	font-size: 14px;
+	padding: 10px 30px 0px 30px;
+}
+
+#projects .container .row .proj .outline .info .click {
+	justify-self: center;
+	width: 200px;
+	border-top: 1px solid white;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+}
+
+#projects .container .row .proj .outline .info .click a {
+	font-family: 'Roboto', sans-serif;
+	color: #CCCCCC;
+	font-size: 15px;
+}
+
+#projects .container .row .proj .outline .info .click a:hover {
+	color: #FFFFFF;
+}
+
+/* Photography */
+#photography .container .row .img {
+	height: 100%;
+	padding: 5px;
+}
+
+#photography .container .row .img a {
+	padding: 0;
+}
+
+#photography .container .row .img a img {
+	height: 100%;
+	width: 100%;
+}
